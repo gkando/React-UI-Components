@@ -1,1 +1,34 @@
 /* All styles for your header Components live here */
+
+.container-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 1rem;
+}
+
+.header-title-wrapper {
+    width: 400px;
+}
+
+.thumb-img {
+    width: 2rem;
+}
+
+.header-title{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.twitter-handle, .time-stamp{
+    color: gray;
+    font-weight: normal;
+    font-size:0.8rem;
+    
+}
+
+.header-content{
+    margin-left: 3rem;
+}
